@@ -1,0 +1,13 @@
+[user]
+	email = ken.ibbotson@pwc.com
+	name = Ken Ibbotson
+	signingkey = E835A9AE05FD9EE4A981F52F77874FF59968C8FB
+
+[core]
+	excludesfile = ~/.gitignore
+
+[init]
+	defaultBranch = develop
+
+[commit]
+    template = ~/.gitmessage

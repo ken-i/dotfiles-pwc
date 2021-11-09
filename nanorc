@@ -1,0 +1,67 @@
+# See 'man nanorc' for full details of each option available.
+
+# Colours for:
+#   errorcolor, functioncolor, keycolor, selectedcolor, statuscolor, titlecolor.
+# Valid colours for background and foreground are:
+#   white, black, blue, green, red, cyan, magenta, normal
+# where: normal means the default foreground or background colour.
+# Prefix 'bright' for foreground colours only.
+
+set afterends                   # Make Ctrl-Right stop at ends instead of beginnings.
+#set allow_insecure_backup       # Allow backup to succeed even if permissions can not be (re)set due to special OS considerations.
+set atblanks                    # Wrap at word boundary for softwrap, rather than edge of screen.
+#set autoindent                  # Automatically indent to previous line. Do not enable if pasting lots of indented lines!
+#set backup                      # Create a backup file with '~' added to the filename.
+#set backupdir directory         # Keep uniquely numbered backup - in the <directory> - every time a file is saved.
+#set boldtext                    # Use bold instead of reverse video for the titlebar, statusbar, key combos, and selected text.
+#set brackets string             # Set characters treated as closing brackets when justifying paragraphs. Default ""')>]}".
+#set breaklonglines              # Automatically hard-wrap the current line when it becomes overlong.
+#set casesensitive               # Do case-sensitive searches by default.
+set constantshow                # Constantly show cursor position.
+#set cutfromcursor               # Use cut-to-end-of-line by default, instead of cutting the whole line.
+#set emptyline                   # Do not use the line below the title bar, leaving it entirely blank.
+set errorcolor brightwhite,red  # Specify [fgcolor][,bgcolor] color combination for status bar error message.
+set fill 0                      # Hard-wrap lines at column number, or screen width - <number> columns if <= 0. Default is -8.
+#set functioncolor yellow,black  # Specify [fgcolor][,bgcolor] color combination for function help at bottom of screen.
+set functioncolor yellow,normal # Specify [fgcolor][,bgcolor] color combination for help at bottom of screen.
+#set guidestripe 80              # Draw a vertical stripe at the given column, to help judge width of text.
+set historylog                  # Enable the use of ~/.nano/search_history for saving and reading search/replace strings.
+#set jumpyscrolling              # Scroll the buffer contents by half-screen instead of per line.
+#set keycolor black,yellow       # Specify [fgcolor][,bgcolor] color combination for shortcut key at bottom of screen.
+set keycolor yellow,black       # Specify [fgcolor][,bgcolor] color combination for shortcut key at bottom of screen.
+#set linienumbers                # Display line numbers to lefet of text.
+#set locking                     # Enable vim-style lock-files for when editing files.
+#set matchbrackets "(<[{)>]}"    # Set opening & closing brackets for searches. Default "(<[{)>]}".
+#set mouse                       # Enable mouse support, if available for your system.
+set multibuffer                 # When reading in a file with ^R, insert it into a new buffer by default.
+#set noconvert                   # Do not convert files from DOS/Mac format.
+#set nohelp                      # DO not display the two help lines at the bottom of the screen.
+set nonewlines                  # Do not automatically add a newline to the ends of files.
+#set operatingdir directory      # nano will 'cd <directory>', then only read & write files inside directory & subdirectories.
+set positionlog                 # Save the cursor position of files between editing sessions, for the 200 most-recent files.
+#set preserve                    # Preserve the XON and XOFF keys (^Q and ^S).
+#set punct string                # Set characters treated as closing punctuation when justifying paragraphs. Default "!.?".
+set quickblank                  # Statusbar messages disappear after 1 keystroke instead of 25.
+#set quotestr regex             # Set the regular expression for matching the quoting part of a line. Default is "^([ \t]*([#%:;>|}]|//))+" else "> ".
+#set rebinddelete                # Properly interpret the Delete key differently so that both Backspace and Delete work properly.
+set regexp                      # Do extended regular expressions by default.
+set selectedcolor yellow,blue   # Specify [fgcolor][,bgcolor] color combination for selected text.
+set showcursor                  # Put cursor on highlighted item in file browser, to aid braille users.
+set smarthome                   # Jump to beginning of text on line or beginning of line.
+set softwrap                    # Enable soft line wrapping for easier viewing of very long lines.
+#set speller spellprog [arg ...] # Use spelling checker spellprog instead of the built-in calls to spell.
+#set statuscolor blue,yellow     # Specify [fgcolor][,bgcolor] color combination for the statusbar.
+set statuscolor yellow,blue     # Specify [fgcolor][,bgcolor] color combination for the statusbar.
+#set suspend                     # Allow nano to be suspended.
+set tabsize 4                   # Use tab size of number columns. Must be > 0. Default = 8.
+set tabstospaces                # Convert typed tabs to spaces.
+#set tempfile                    # Save automatically on exit, do not prompt.
+#set titlecolor blue,yellow      # Specify [fgcolor][,bgcolor] color combination for the titlebar.
+set titlecolor yellow,blue      # Specify [fgcolor][,bgcolor] color combination for the titlebar.
+set trimblanks                  # Snip trailing whitespace for justify or hard line wrapping.
+set unix                        # Save a file by default in Unix format.
+#set view                        # Disallow file modification: read-only mode.
+#set whitespace ».               # Set two characters to indicate presence of tabs and spaces. Must be single-column characters.
+#set wordbounds                  # Detect word boundaries more accurately by treating punctuation characters as parts of words.
+#set wordchars "characters"      # Set additional non-alphanumeric characters as part of words.
+#set zap                         # Unmodified Backspace and Delete erase the  marked region instead of a single character.

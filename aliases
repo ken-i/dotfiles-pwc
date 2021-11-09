@@ -1,0 +1,64 @@
+# More aliases for the command line.
+
+# diff
+
+alias diff='diif -s'
+
+
+# ls
+
+alias l='ls -CF'
+alias la='ls -lhaF'
+alias ll='ls -lhFA'
+alias lr='ls -lhFR'
+alias lt='ls -lhFrt'
+
+
+# mkdir
+
+alias mkdir='mkdir -p'
+
+
+# Pretty print the path
+
+alias path='echo $PATH | tr -s ":" "\n"'
+
+
+# ps
+
+alias psa='ps aux'
+alias psg='ps aux | grep'
+alias pst='ps axjf'
+
+alias pgrep='pgrep --full --list-full'
+
+
+# Git
+
+alias ga="git add"
+alias gamend="git commit --amend --reset-author"
+alias gb="git branch"
+alias gch="git checkout"
+alias gcl="git config --list"
+alias gdh="git diff HEAD"
+alias gl="git log"
+alias gld="git log --format='%C(auto) %h %ci %d %s' --graph"
+alias glo="git log --oneline --graph --decorate"
+alias gm="git merge"
+alias gpo="git push origin"
+alias gpu="git pull"
+alias grb="git rebase"
+alias grh="git reset HEAD"
+alias grs="git restore"
+alias gsh="git show"
+alias gst="git status"
+
+
+# apt
+
+alias acp='apt-cache policy'
+
+
+# Python
+
+alias python='python3'
